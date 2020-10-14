@@ -138,7 +138,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickLimpar (View v){
         display.setText("");
-
+        primeiroNumero = "";
+        segundoNumero = "";
+        operacao = "";
     }
 
     private void atualizarDisplay(String texto) {
